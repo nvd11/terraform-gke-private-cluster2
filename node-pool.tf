@@ -1,6 +1,6 @@
 resource "google_container_node_pool" "my-cluster2-node-pool1" {
     count =1
-    name ="my-clusqter2-node-pool1"
+    name ="node-pool1"
     #│ Because google_container_cluster.my-cluster1 has "count" set, its attributes must be accessed on
   # specific instances.
     cluster = google_container_cluster.my-cluster2.name

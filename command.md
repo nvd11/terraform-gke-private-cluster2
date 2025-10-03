@@ -1,0 +1,1 @@
+gcloud container clusters describe my-cluster2 --region=europe-west2 --format="yaml"
